@@ -1,0 +1,61 @@
+body {
+	background:  #0066ff;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+ .container > div {
+ 	background: #00ff80;
+	position: relative;;
+	float: left;
+	margin: 1%;
+	width: 30%;
+	border: 3px solid black;
+	box-sizing: border-box;
+}
+
+h2 {
+	background: #ffbf00;
+	margin: 0;
+	padding: 2%;
+	text-align: center;
+	position: relative;
+	top:-2px;
+	right:-2px;
+	float: right;
+	border: 3px solid black;
+	box-sizing: border-box;
+	width: 30%;
+	overflow: hidden;
+	margin-bottom: 5px;
+	
+
+}
+
+p {
+	clear: both;
+	padding-left: 5%;
+	text-transform: 900;
+	font-family: arial;
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.container > div {
+		width: 48%;
+	}
+
+	#thirdDiv {
+		width: 98%;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.container > div {
+		width: 98%;
+	}
+}
